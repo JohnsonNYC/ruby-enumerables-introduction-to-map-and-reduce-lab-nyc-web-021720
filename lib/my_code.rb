@@ -35,4 +35,10 @@ def map_to_square(source_array)
   array 
 end 
 
-def reduce_to_total
+def reduce_to_total(source_array,starting_point)
+  i = 0 
+  while i < source_array.length
+    grand_total += source_array[i]
+  end 
+  grand_total
+end 
